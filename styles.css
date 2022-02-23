@@ -1,0 +1,76 @@
+.big {
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+.stuff {
+    display: flex;
+}
+
+.section1 {
+    background-color: #1F2937;
+    padding: 20px 100px;
+}
+.section1 .stuff{
+    background-color: #1F2937;
+    flex: 1 1 auto;
+    justify-content: space-around;
+}
+.section1 .col{
+    background-color: #1F2937;
+    flex: 0 1 auto;
+    width: 400px;
+    gap: 10px;
+}
+.section1 .stuff p {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+}
+
+.section1 .stuff .col h1 {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+
+.section1 .header a {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.section1 .header p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.section1 img {
+    width: 400px;
+    flex: 0 1 auto;
+}
+
+.section2 img {
+    width: 200px;
+    flex: 0 0 0;
+}
+
